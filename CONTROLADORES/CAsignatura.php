@@ -84,7 +84,7 @@
             if($objMAsignatura->eliminarAsignatura($_GET['id'])>0){
                 return "Asignatura eliminada correctamente.";
             }
-            return "No se ha podido eliminar la asignatura. Puede que tenga horarios asociados.";
+            return "No se ha podido eliminar la asignatura.";
         }
     }
 ?>
