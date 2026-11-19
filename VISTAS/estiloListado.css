@@ -1,0 +1,41 @@
+/* SOLO PARA EL LISTADO Y EL MENSAJE DE ASIGNATURAS */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: white;
+    font-size: 1rem;
+}
+
+th, td{
+    border: 1px solid #b5b5b5;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+th{
+    background-color: #006ea4;
+    color: white;
+}
+
+td a{
+    color: #006ea4;
+    margin-right: 15px;
+}
+
+.boton{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #006ea4;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background-color: aliceblue;
+    color: #006ea4;
+    transition-duration: 1s;
+}
